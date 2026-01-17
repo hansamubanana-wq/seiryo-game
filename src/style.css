@@ -1,0 +1,13 @@
+/* ブラウザのデフォルトの余白を消す */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* 背景を黒に */
+  overflow: hidden; /* スクロールバーを出さない */
+}
+
+/* ゲーム画面を中央に配置する場合の補助設定（今回は全画面想定） */
+#app {
+  width: 100vw;
+  height: 100vh;
+}
